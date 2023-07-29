@@ -9,12 +9,16 @@
   box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Lumanosimo&display=swap');
+
  :root {
   --light-blue: #1e90ff;
   --darck-blue: #1f2bdf;
   --black: #000;
-  --pink: #f258ff;
-  --yellow: #ffc14a;
+  --pink: #ff58dd;
+  --yellow: #ffbd3f;
+  --lilac: #5c2eff;
+  --white:#ffff;
  }
 
  body {
@@ -34,6 +38,13 @@
      height: 300px;
      background: var(--black);
      border-radius:5px;
+     color: var(--white);
+     font-family: 'Lilita One', cursive;
+     font-family: 'Lumanosimo', cursive;
+
+     text-align: center;
+     font-weight: bold;
+     font-size: 1.1rem;
  }
 
 .element-1 {
