@@ -9,3 +9,69 @@
   box-sizing: border-box;
 }
 
+ :root {
+  --light-blue: #1e90ff;
+  --darck-blue: #1f2bdf;
+  --black: #000;
+  --pink: #f258ff;
+  --yellow: #ffc14a;
+ }
+
+ body {
+     display: grid;
+     /* place-content: center; */
+     justify-content: center;
+     align-content: center;
+     width: 100vw;
+     height: 100vh;
+ }
+
+ .content {
+     display: grid;
+     grid-template-columns: repeat(4, auto);
+     grid-template-rows: repeat(2, auto);
+     width: 600px;
+     height: 300px;
+     background: var(--black);
+     border-radius:5px;
+ }
+
+.element-1 {
+    width: 50px;
+    height: 50px;
+    background: var(--darck-blue);
+    grid-row: 1;
+    grid-column: 1;
+    align-self: start;
+    border-radius:5px;
+}
+
+.element-2 {
+    width: 50px;
+    height: 50px;
+    background: var(--light-blue);
+    grid-row: 1;
+    grid-column: 2;
+    align-self: end;
+    border-radius:5px;
+}
+
+.element-3 {
+    width: 50px;
+    height: 50px;
+    background: var(--pink);
+    grid-row: 1;
+    grid-column: 3;
+    align-self: center;
+    border-radius:5px;
+}
+
+.element-4 {
+    /* width: 50px; */
+    /* height: 50px; */
+    background: var(--yellow);
+    grid-row: 1;
+    grid-column: 4;
+    align-self: stretch;
+    border-radius:5px;
+}
