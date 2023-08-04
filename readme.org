@@ -1,0 +1,18 @@
+
+* align-self-example
+
+Aveces simplemente olvido lo que aprendo y por eso quise hacer este ejemplo para despejar las telarañas de mi mente.
+
+
+** align-self
+Es una propiedad de css que aliena  el contenido respecto al eje "y" de una cuadrícula o grilla.
+
+=Nota:= align-self solo se aplica a un unico elemento o casilla de la cuadrícula.
+
+Entre los valores de align-self se encuentran los siguientes:
+- start
+- end
+- center
+- stretch
+** Imagen del ejemplo
+[[https://i.imgur.com/NH3FNir.png]]

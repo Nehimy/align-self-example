@@ -50,7 +50,7 @@
 .element-1 {
     width: 50px;
     height: 50px;
-    background: var(--darck-blue);
+    background: var(--light-blue);
     grid-row: 1;
     grid-column: 1;
     align-self: start;
@@ -60,7 +60,7 @@
 .element-2 {
     width: 50px;
     height: 50px;
-    background: var(--light-blue);
+    background: var(--darck-blue);
     grid-row: 1;
     grid-column: 2;
     align-self: end;
