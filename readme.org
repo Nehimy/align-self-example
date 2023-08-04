@@ -15,4 +15,4 @@ Entre los valores de align-self se encuentran los siguientes:
 - center
 - stretch
 ** Imagen del ejemplo
-[[https://i.imgur.com/NH3FNir.png]]
+[[https://i.imgur.com/NH3FNir.png ][https://ney.one/align-self-propiedad-de-css-grid/]]
